@@ -46,9 +46,9 @@ public class Country {
         if (getClass() != obj.getClass())
             return false;
         Country other = (Country) obj;
-        if (id == null) {
-            return other.id == null;
-        } else return id.equals(other.id);
+        if (name == null) {
+            return other.name == null;
+        } else return name.equals(other.name);
     }
 
     @Override

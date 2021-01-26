@@ -56,9 +56,9 @@ public class Author {
         if (getClass() != obj.getClass())
             return false;
         Author other = (Author) obj;
-        if (id == null) {
-            return other.id == null;
-        } else return id.equals(other.id);
+        if (email == null) {
+            return other.email == null;
+        } else return email.equals(other.email);
     }
 
 

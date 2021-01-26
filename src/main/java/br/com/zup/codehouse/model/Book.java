@@ -71,9 +71,9 @@ public class Book {
         if (getClass() != obj.getClass())
             return false;
         Book other = (Book) obj;
-        if (id == null) {
-            return other.id == null;
-        } else return id.equals(other.id);
+        if (title == null) {
+            return other.title == null;
+        } else return title.equals(other.title);
     }
 
     @Deprecated

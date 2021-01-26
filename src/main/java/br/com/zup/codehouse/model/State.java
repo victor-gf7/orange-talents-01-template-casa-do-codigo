@@ -42,9 +42,9 @@ public class State {
         if (getClass() != obj.getClass())
             return false;
         State other = (State) obj;
-        if (id == null) {
-            return other.id == null;
-        } else return id.equals(other.id);
+        if (name == null) {
+            return other.name == null;
+        } else return name.equals(other.name);
     }
 
     public Long getId() {
@@ -57,5 +57,10 @@ public class State {
 
     public Country getCountry() {
         return country;
+    }
+
+    public boolean belongs(Country country) {
+
+        return this.country.equals(country);
     }
 }
