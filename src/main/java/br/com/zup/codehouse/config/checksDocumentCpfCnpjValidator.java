@@ -19,6 +19,5 @@ public class checksDocumentCpfCnpjValidator implements Validator {
         if(!request.isValidDocument()){
             errors.rejectValue("document", null, "Documento precisa ser um CPF ou CNPJ válido");
         }
-
     }
 }

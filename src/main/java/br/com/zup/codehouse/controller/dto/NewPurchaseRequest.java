@@ -3,8 +3,6 @@ package br.com.zup.codehouse.controller.dto;
 import br.com.zup.codehouse.config.ExistsId;
 import br.com.zup.codehouse.model.Country;
 import br.com.zup.codehouse.model.State;
-import org.hibernate.validator.constraints.br.CNPJ;
-import org.hibernate.validator.constraints.br.CPF;
 import org.hibernate.validator.internal.constraintvalidators.hv.br.CNPJValidator;
 import org.hibernate.validator.internal.constraintvalidators.hv.br.CPFValidator;
 import org.springframework.util.Assert;
